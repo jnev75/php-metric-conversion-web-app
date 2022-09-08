@@ -1,0 +1,53 @@
+<!-- Index (index.html file) for PHP web application -->
+
+<!-- HTML markup -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Metric Conversion Application</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Metric Conversion Application</h1>
+        <header>
+        
+        <main>
+            <form action="index.view.php" method="post">
+                <fieldset>
+                    <legend>Metric Form:</legend><br>
+                    Value: <input type="number" name="value" 
+                    min="1" max="10000" required><br><br>
+                    
+                    Select a Metric Type:<br><br>
+                    Distance <input type="radio" name="metric" value="Distance" required><br>
+                    Temperature <input type="radio" name="metric" value="Temperature"><br>
+                    Weight <input type="radio" name="metric" value="Weight"><br><br>
+
+                    From: 
+                    <select name="first-select-box" required>
+
+                    </select>
+                    <br><br>
+                    To: 
+                    <select name="second-select-box" required>
+
+                    </select><br><br>
+
+                    <input type="submit" name="submit" value="Submit">
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p class="copyright-text">
+                Copyright &copy; 2022 All Rights Reserved by James L Neville.
+            </p>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

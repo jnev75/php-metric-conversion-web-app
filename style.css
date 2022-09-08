@@ -1,0 +1,35 @@
+/* Stylesheet (style.css file) for PHP web application */
+
+h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main, input, .copyright-text {
+    font: 1rem 'Source Sans Pro', sans-serif;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+
+.copyright-text
+{
+    padding-top: 30px;
+    color: grey;
+    margin: 0;
+}
+
+a:hover
+{
+    color: #3366cc;
+    text-decoration: none;
+}
